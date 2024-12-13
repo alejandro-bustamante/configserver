@@ -40,6 +40,6 @@ logging:
   level:
     root: debug
   pattern:
-    level: "%Sp [${spring.application.name:},%X{trace.id:-},%X{spanId:-}]"
+    level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
 
 
